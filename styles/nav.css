@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#navbar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    box-shadow: 0px 0px 27.5px -13px;
+}
+#navbar img{
+    width: 353px;
+    height: 86px;
+    margin-left: 86px;
+}
+.navbar-types{
+    display: flex;
+    gap:5rem;
+    padding: 20px;
+}
+.navbar-types li{
+    list-style-type: none;
+}
+.navbar-types li:hover{
+    color:#6f42c1;;
+    cursor: pointer;
+}
+.dropdown :hover{
+    color:#6f42c1;
+}
+.navbar-types button{
+    background:linear-gradient(#4e3bbf, #a928d8);
+    padding: 0px 10px;
+    border-radius: 10px;   
+}
+.bg1{
+    background-color: #FCFCFC;
+    padding: 110px;
+}
+.bg-img{
+    background-image: url("https://kona-digital.com/images/herobg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100rem 27rem;
+    padding: 400px 0px;  
+    position:relative;
+    
+}
+.meetus{
+    text-align: center;
+    color: #000C60;
+    position: absolute;
+    top: 230px;
+    left: 188px;
+}
+.meetus button{
+    margin-top: 32px;
+    padding: 10px 35px;
+    margin-right: 35px;
+    border-radius: 10px;
+}
+.Askfordemo-btn{
+    background:linear-gradient(90deg, #4e3bbf, #a928d8);
+    border:none;
+    color: white;
+}
+.meetus h1{
+    font-size: 79px;
+}
+.meetus p{
+    font-size: 24px;
+}
+.flex-management-system{
+    display: flex;
+     width:89%;
+    justify-items: center;
+    position:absolute;
+    margin-left: 64px; 
+    column-gap: 50px;
+    top: 859px;
+} 
+.flex-management-system .management-system{
+    background-color: white;
+    box-shadow: 0 0 20px #dddddd73;
+    padding: 15px;
+    border-radius: 10px;
+    text-size-adjust: 10px;
+    height: 30rem;
+}
+.trusted {
+    font-size: 46px;
+    margin-top: 156px;
+}
+
+.knowmore{
+    color: violet;
+}
+.trusted h1{
+    margin-left: 504px;
+    color: #000c60;
+}
+.industry-solution{
+    text-align: center;
+    top:98rem;
+    margin-left:4px;
+    margin-top:32rem;
+    font-size:30px;
+}
+.industry-solution h4{
+    display: inline-block;
+    background: #ffebeb;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #000c60;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1px;
+    row-gap: 1px;
+    padding: 10px;
+    height: 41rem;
+    width: 57rem;
+    margin-top:82px;
+    margin-left: 194px;
+   
+  }
+  .grid-item {
+    border:1px solid white;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px #eed9d973;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-item p{
+    font-size: 14px;
+    width:362px;
+  }
+  .grid-item h3{
+    text-align: center;
+    color: #000c60;
+  }
+  .grid-item img{
+    margin-left: 125px;
+  }
+  .trusted{
+    top:165rem;
+  }
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 41rem;
+    width: 57rem;
+    top:203rem;
+    left: 83px;
+    margin-left: 179px;
+   
+  }
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+  } 
+  .grid-item2 h3{
+    color: #000c60;
+  }
+  .nav1{
+    top:252rem;
+  }
+.Q{
+    top: 251rem;
+    margin-left:38rem;
+    color: #000c60;
+} 
+.footer{
+    display: flex;
+    top:300rem;
+    width:100%;
+    column-gap: 79px;
+    margin-left: 60px;
+    background-color: white;
+    margin-top: 10px;
+
+}
+.footer .d-flex{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+.QA{
+    margin-left: 36rem;
+}
+#accordionPanelsStayOpenExample{
+    display: block;
+    width: 100%;
+    padding-left: 17rem;
+    padding-right: 17rem;
+}
+#accordian-btn :hover{
+   color: #000C60;
+}
+#connect{
+    margin-top: 50px;
+}
+#lets-connect-container {
+   display: flex;
+   margin-left: 30px;
+   gap: 1rem;
+}
+.accordion-item{
+    background-color: none;
+}
+.letsconnect {
+    display: flex;
+    justify-content: center;
+    margin-left: 2px;
+    margin-top: 30px;
+    background-image: linear-gradient(239deg, #EDF3F8, #FEFEFF);
+}
+.content{
+        text-align: center;
+        margin: auto;
+}
+.image img{
+    top: 265rem;
+    left: 606px;  
+}
+.letsconnect button{
+    background:linear-gradient(90deg, #4e3bbf, #a928d8);
+    border:none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container1{
+    margin-top: 105px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+}
+.carousel-indicators .active {
+    background-image:url("https://kona-digital.com/images/mapimg.png");
+}
+.bg {
+    background-color: #FCFCFC;
+    padding: 0px;
+}
+

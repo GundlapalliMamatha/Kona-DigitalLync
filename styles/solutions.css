@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#navbar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    box-shadow: 0px 0px 27.5px -13px;
+}
+#navbar img{
+    width: 353px;
+    height: 86px;
+    margin-left: 86px;
+}
+.navbar-types{
+    display: flex;
+    gap:5rem;
+    padding: 20px;
+}
+.navbar-types li{
+    list-style-type: none;
+}
+.navbar-types li:hover{
+    color:#6f42c1;;
+    cursor: pointer;
+}
+.dropdown :hover{
+    color:#6f42c1;
+}
+.navbar-types button{
+    background:linear-gradient(#4e3bbf, #a928d8);
+    padding: 0px 10px;
+    border-radius: 10px;   
+}
+.Q{
+    top: 251rem;
+    margin-left:38rem;
+    color: #000c60;
+} 
+.footer{
+    display: flex;
+    top:300rem;
+    width:100%;
+    column-gap: 79px;
+    margin-left: 60px;
+    background-color: white;
+    margin-top: 10px;
+
+}
+.footer .d-flex{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+.QA{
+    margin-left: 36rem;
+}
+#accordionPanelsStayOpenExample{
+    display: block;
+    width: 100%;
+    padding-left: 17rem;
+    padding-right: 17rem;
+}
+#accordian-btn :hover{
+   color: #000C60;
+}
+#connect{
+    margin-top: 50px;
+}
+#lets-connect-container {
+   display: flex;
+   margin-left: 30px;
+   gap: 1rem;
+}
+.accordion-item{
+    background-color: none;
+}
+.letsconnect {
+    display: flex;
+    justify-content: center;
+    margin-left: 2px;
+    margin-top: 30px;
+    background-image: linear-gradient(239deg, #EDF3F8, #FEFEFF);
+}
+.content{
+        text-align: center;
+        margin: auto;
+}
+.image img{
+    top: 265rem;
+    left: 606px;  
+}
+.letsconnect button{
+    background:linear-gradient(90deg, #4e3bbf, #a928d8);
+    border:none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container1{
+    margin-top: 105px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+}
+.carousel-indicators .active {
+    background-image:url("https://kona-digital.com/images/mapimg.png");
+}
+.bg {
+    background-color: #FCFCFC;
+    padding: 0px;
+}
