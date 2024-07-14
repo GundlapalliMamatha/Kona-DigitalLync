@@ -3,20 +3,23 @@
     padding: 0px;
     
 }
+/* navbar */
 #navbar{
     background-color: rgb(255, 255, 255);
     display: flex;
     box-shadow: 0px 0px 27.5px -13px;
 }
 #navbar img{
-    width: 353px;
-    height: 86px;
+    width: 257px;
+    height: 82px;
     margin-left: 86px;
 }
 .navbar-types{
     display: flex;
-    gap:5rem;
+    gap: 3rem;
     padding: 20px;
+    margin-left: 190px;
+    margin-top: auto;
 }
 .navbar-types li{
     list-style-type: none;
@@ -29,10 +32,13 @@
     color:#6f42c1;
 }
 .navbar-types button{
-    background:linear-gradient(#4e3bbf, #a928d8);
-    padding: 0px 10px;
-    border-radius: 10px;   
+    background: linear-gradient(90deg, #4e3bbf, #a928d8);
+    border: none;
+    color: white;
+    padding: 10px 29px;
+    border-radius: 10px;
 }
+/* background images for meetus section */
 .bg1{
     background-color: #FCFCFC;
     padding: 110px;
@@ -43,15 +49,16 @@
     background-repeat: no-repeat;
     background-size: 100rem 27rem;
     padding: 400px 0px;  
-    position:relative;
-    
+    position:relative;   
 }
+/* content for meetus section */
 .meetus{
     text-align: center;
     color: #000C60;
     position: absolute;
     top: 230px;
     left: 188px;
+    font-weight: 700;
 }
 .meetus button{
     margin-top: 32px;
@@ -68,8 +75,46 @@
     font-size: 79px;
 }
 .meetus p{
+    font-weight: lighter;
     font-size: 24px;
 }
+/* animation images for meetus section */
+.image1{
+        position: absolute;
+        left: 6%;
+        top: 72%;
+        animation: zoom-in-zoom-out 10s ease infinite;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+.image2{
+    position: absolute;
+    right: 65%;
+    top: 40%;
+    animation: zoom-in-zoom-out 10s ease infinite;
+}
+.image3{
+    position: absolute;
+    left: 82%;
+    top:100%;
+    animation: zoom-in-zoom-out 5s ease infinite;
+}
+.image4{
+    position: absolute;
+    left: 61%;
+    top: 122%;
+    animation: zoom-in-zoom-out 10s ease infinite;
+}
+/* management system flex section */
 .flex-management-system{
     display: flex;
      width:89%;
@@ -79,7 +124,7 @@
     column-gap: 50px;
     top: 859px;
 } 
-.flex-management-system .management-system{
+.management-system{
     background-color: white;
     box-shadow: 0 0 20px #dddddd73;
     padding: 15px;
@@ -87,18 +132,36 @@
     text-size-adjust: 10px;
     height: 30rem;
 }
+.management-system h2{
+    font-size: 28px;
+    margin-top: 16px;
+}
+
 .trusted {
     font-size: 46px;
     margin-top: 156px;
 }
-
+#manage{
+    margin-top: -70px;
+}
 .knowmore{
-    color: violet;
+    color: rgb(96, 32, 225);
+    margin-left: 176px;
+}
+.arrow-img{
+    margin-left: 263px;
+    margin-top: -25px;
+}
+
+#arrow-img{
+    margin-left: 263px;
+    margin-top: -51px;
 }
 .trusted h1{
     margin-left: 504px;
     color: #000c60;
 }
+/* INDUSTRY SOLUTIONS heading content */
 .industry-solution{
     text-align: center;
     top:98rem;
@@ -114,7 +177,10 @@
     color: #000c60;
     text-align: center;
 }
+/* Education,Industries,Real Estate,IT diffrent sector section using grid */
 .grid-container {
+    position: absolute;
+    top: 110rem;
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 1px;
@@ -122,9 +188,8 @@
     padding: 10px;
     height: 41rem;
     width: 57rem;
-    margin-top:82px;
-    margin-left: 194px;
-   
+    margin-top: 82px;
+    margin-left: 194px
   }
   .grid-item {
     border:1px solid white;
@@ -145,17 +210,43 @@
   .grid-item img{
     margin-left: 125px;
   }
+   /* Education,Industries,Real Estate,IT diffrent background images animation using grid  */
+  .ropeline{
+    animation: zoom-in-zoom-out1 5s ease infinite;
+  }
+  @keyframes zoom-in-zoom-out1 {
+    0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px); /* Adjust this value to control how high the element moves */
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+      /* carousel */
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: #000C60;
+    
+}
+.carousel-indicators .active {
+    background-image:url("https://kona-digital.com/images/mapimg.png");
+}
+ 
   .trusted{
     top:165rem;
   }
-
+  /* bangaloor,hyderbad address images section in grid  */
 .grid-container2 {
     display: grid;
     grid-template-columns: auto auto;
     height: 41rem;
     width: 57rem;
-    top:203rem;
-    left: 83px;
+    margin-top: 179px;
     margin-left: 179px;
    
   }
@@ -166,12 +257,12 @@
   } 
   .grid-item2 h3{
     color: #000c60;
+    font-weight: bolder;
+    font-size: 29px;
   }
-  .nav1{
-    top:252rem;
-  }
-.Q{
-    top: 251rem;
+
+
+.QA{
     margin-left:38rem;
     color: #000c60;
 } 
@@ -192,6 +283,8 @@
     }
 .QA{
     margin-left: 36rem;
+    margin-top:45rem;
+    font-weight: 700;
 }
 #accordionPanelsStayOpenExample{
     display: block;
@@ -239,17 +332,7 @@
     margin-top: 105px;
 }
 
-.carousel-indicators [data-bs-target] {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    
-}
-.carousel-indicators .active {
-    background-image:url("https://kona-digital.com/images/mapimg.png");
-}
 .bg {
     background-color: #FCFCFC;
     padding: 0px;
 }
-
