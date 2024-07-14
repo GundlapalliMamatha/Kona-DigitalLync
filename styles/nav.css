@@ -3,6 +3,15 @@
     padding: 0px;
     
 }
+/* body {
+    background-color: lightgreen;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(235, 240, 242);
+    }
+  } */
 /* navbar */
 #navbar{
     background-color: rgb(255, 255, 255);
@@ -114,7 +123,7 @@
     top: 122%;
     animation: zoom-in-zoom-out 10s ease infinite;
 }
-/* management system flex section */
+/* management system lms,crm,hrms flex section */
 .flex-management-system{
     display: flex;
      width:89%;
@@ -136,7 +145,7 @@
     font-size: 28px;
     margin-top: 16px;
 }
-
+/* trusted heading */
 .trusted {
     font-size: 46px;
     margin-top: 156px;
@@ -260,31 +269,14 @@
     font-weight: bolder;
     font-size: 29px;
   }
-
-
-.QA{
-    margin-left:38rem;
-    color: #000c60;
-} 
-.footer{
-    display: flex;
-    top:300rem;
-    width:100%;
-    column-gap: 79px;
-    margin-left: 60px;
-    background-color: white;
-    margin-top: 10px;
-
-}
-.footer .d-flex{
-        display: flex;
-        flex-direction: column;
-        row-gap: 10px;
-    }
+/* accordian */
 .QA{
     margin-left: 36rem;
     margin-top:45rem;
     font-weight: 700;
+    color: #000C60;
+    margin-bottom: 20px;
+    margin-top: 19rem;
 }
 #accordionPanelsStayOpenExample{
     display: block;
@@ -306,7 +298,21 @@
 .accordion-item{
     background-color: none;
 }
-.letsconnect {
+
+
+
+
+
+#lets-connect-container {
+   display: flex;
+   margin-left: 30px;
+   gap: 1rem;
+}
+.accordion-item{
+    background-color: none;
+}
+  /* letsconnect content image section in flex */
+  .letsconnect {
     display: flex;
     justify-content: center;
     margin-left: 2px;
@@ -336,3 +342,20 @@
     background-color: #FCFCFC;
     padding: 0px;
 }
+/* footer */
+.footer{
+    display: flex;
+    top:300rem;
+    width:100%;
+    column-gap: 79px;
+    margin-left: 60px;
+    background-color: white;
+    margin-top: 10px;
+
+}
+.footer .d-flex{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+  
