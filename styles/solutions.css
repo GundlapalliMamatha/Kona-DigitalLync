@@ -3,20 +3,28 @@
     padding: 0px;
     
 }
+body{
+  /* overflow-clip-margin: content-box; */
+  overflow-x:clip;
+}
+/* navbar */
 #navbar{
     background-color: rgb(255, 255, 255);
     display: flex;
     box-shadow: 0px 0px 27.5px -13px;
+    margin-right: -90px;
 }
 #navbar img{
-    width: 353px;
-    height: 86px;
+    width: 257px;
+    height: 82px;
     margin-left: 86px;
 }
 .navbar-types{
     display: flex;
-    gap:5rem;
+    gap: 3rem;
     padding: 20px;
+    margin-left: 190px;
+    margin-top: auto;
 }
 .navbar-types li{
     list-style-type: none;
@@ -29,16 +37,230 @@
     color:#6f42c1;
 }
 .navbar-types button{
-    background:linear-gradient(#4e3bbf, #a928d8);
-    padding: 0px 10px;
-    border-radius: 10px;   
+    background: linear-gradient(90deg, #4e3bbf, #a928d8);
+    border: none;
+    color: white;
+    border:2px solid skyblue;
+    padding: 10px 29px;
+    border-radius: 10px;
 }
-.Q{
-    top: 251rem;
-    margin-left:38rem;
-    color: #000c60;
-} 
-.footer{
+/* solution content image in section */
+#solutions-container{
+    display: flex;
+    padding-top: 81px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    gap: 4rem;
+}
+#solutions-school{
+    text-align: start;
+    padding-top: 80px;
+}
+#solutions-school h1{
+  font-size: 3.5rem;
+  background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+  -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+#solutions-school h5{
+  width: 56%;
+  font-weight: 400;
+  padding: 8px;
+  text-align: center;
+  border-radius: 22px;
+  background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #EAEDFB 100%);
+}
+.btn2{
+    background: linear-gradient(90deg, #4e3bbf, #a928d8) !important;
+    border: none;
+    color: white;
+}
+/* advanced dashboard section */
+#solutions-dashboard {
+    display: flex;
+    padding-top: 81px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    gap: 4rem;
+}
+.solutions-monitor{
+    text-align: start;
+    padding-right: 52px;
+    padding-left: 52px;
+    padding-top: 100px;
+    
+}
+.solutions-monitor h3{
+    font-size:3.5rem;
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+  }
+  .solutions-monitor h5{
+    width: 56%;
+    font-weight: 400;
+    padding: 8px;
+    text-align: center;
+    border-radius: 22px;
+    background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #EAEDFB 100%);
+  }
+  .solutions-monitor p{
+    font-size: 17px;
+  }
+  .tickmark{
+    font-size: 17px;
+    
+  }
+  .fa-circle-check{
+    color: #8b66ea;
+    font-size: 15px;
+  }
+  /* what can i write for you heading  */
+  #what-container {
+    
+    padding-bottom: 9rem;
+    background-image: url("	https://kona-digital.com/images/whatcanbg.svg");
+  }
+  #what-container h1{
+    text-align: center;
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 33rem;
+    padding-top: 6rem;
+    font-size: 50px;
+  }
+  #whaticons{
+    list-style-type: none;
+    display: flex;
+    padding-left: 12rem;
+    padding-top: 10rem;
+    gap: 10rem;
+    
+  }
+  /* platform section */
+  #platforms-container{
+    text-align: center;
+    padding-top: 5rem;
+  }
+  #platforms-container p{
+    font-size: 20px;
+   
+   }
+  #platforms-container h1{
+    font-size: 50px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+  -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  }
+  #platforms ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 2rem;
+
+  }
+  #platforms li{
+    width: 20%;
+  }
+ #platforms img{
+    vertical-align: middle;
+    width: 100%;
+  }
+  #platforms p,h5{
+    text-align: center;
+  }
+.li2{
+    position: relative;
+     top: 12rem;
+     text-align: center;
+  }
+  .li4{
+    position: relative;
+     top: 12rem;
+  }
+  .li6{
+    position: relative;
+     top: 12rem;
+  }
+/* accordian */
+.QA{
+    margin-left: 36rem;
+    margin-top:45rem;
+    font-weight: 700;
+    color: #000C60;
+    margin-bottom: 20px;
+    margin-top: 19rem;
+  }
+  #accordionPanelsStayOpenExample{
+    display: block;
+    width: 100%;
+    padding-left: 17rem;
+    padding-right: 17rem;
+  }
+  #accordian-btn :hover{
+   color: #000C60;
+  }
+  #connect{
+    margin-top: 50px;
+  }
+  #lets-connect-container {
+   display: flex;
+   margin-left: 30px;
+   gap: 1rem;
+  }
+  .accordion-item{
+    background-color: none;
+  }
+  
+  
+  
+  
+  
+  #lets-connect-container {
+   display: flex;
+   margin-left: 30px;
+   gap: 1rem;
+  }
+  .accordion-item{
+    background-color: none;
+  }
+  /* letsconnect content image section in flex */
+  .letsconnect {
+    display: flex;
+    justify-content: center;
+    margin-left: 2px;
+    margin-top: 30px;
+    background-image: linear-gradient(239deg, #EDF3F8, #FEFEFF);
+  }
+  .content{
+        text-align: center;
+        margin: auto;
+  }
+  .image img{
+    top: 265rem;
+    left: 606px;  
+  }
+  .letsconnect button{
+    background:linear-gradient(90deg, #4e3bbf, #a928d8);
+    border:none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .container1{
+    margin-top: 105px;
+  }
+  
+  .bg {
+    background-color: #FCFCFC;
+    padding: 0px;
+  }
+  
+  /* footer */
+  .footer{
     display: flex;
     top:300rem;
     width:100%;
@@ -46,72 +268,12 @@
     margin-left: 60px;
     background-color: white;
     margin-top: 10px;
-
-}
-.footer .d-flex{
+  
+  }
+  .footer .d-flex{
         display: flex;
         flex-direction: column;
         row-gap: 10px;
     }
-.QA{
-    margin-left: 36rem;
-}
-#accordionPanelsStayOpenExample{
-    display: block;
-    width: 100%;
-    padding-left: 17rem;
-    padding-right: 17rem;
-}
-#accordian-btn :hover{
-   color: #000C60;
-}
-#connect{
-    margin-top: 50px;
-}
-#lets-connect-container {
-   display: flex;
-   margin-left: 30px;
-   gap: 1rem;
-}
-.accordion-item{
-    background-color: none;
-}
-.letsconnect {
-    display: flex;
-    justify-content: center;
-    margin-left: 2px;
-    margin-top: 30px;
-    background-image: linear-gradient(239deg, #EDF3F8, #FEFEFF);
-}
-.content{
-        text-align: center;
-        margin: auto;
-}
-.image img{
-    top: 265rem;
-    left: 606px;  
-}
-.letsconnect button{
-    background:linear-gradient(90deg, #4e3bbf, #a928d8);
-    border:none;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-}
-.container1{
-    margin-top: 105px;
-}
-
-.carousel-indicators [data-bs-target] {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    
-}
-.carousel-indicators .active {
-    background-image:url("https://kona-digital.com/images/mapimg.png");
-}
-.bg {
-    background-color: #FCFCFC;
-    padding: 0px;
-}
+   
+   

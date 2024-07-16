@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+  /* overflow-clip-margin: content-box; */
+  overflow-x:clip;
+}
+/* navbar */
+#navbar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    box-shadow: 0px 0px 27.5px -13px;
+    margin-right: -90px;
+}
+#navbar img{
+    width: 257px;
+    height: 82px;
+    margin-left: 86px;
+}
+.navbar-types{
+    display: flex;
+    gap: 3rem;
+    padding: 20px;
+    margin-left: 190px;
+    margin-top: auto;
+}
+.navbar-types li{
+    list-style-type: none;
+}
+.navbar-types li:hover{
+    color:#6f42c1;;
+    cursor: pointer;
+}
+.dropdown :hover{
+    color:#6f42c1;
+}
+.navbar-types button{
+    background: linear-gradient(90deg, #4e3bbf, #a928d8);
+    border: none;
+    color: white;
+    border:2px solid skyblue;
+    padding: 10px 29px;
+    border-radius: 10px;
+}
+/* empower content graph flex section */
+#products-container{
+  display: flex;
+  gap: 0px;
+  padding-top: 40px;
+  background-image: url("	https://kona-digital.com/images/productbanner.jpg");
+}
+#content{
+  padding-left: 18rem;
+  text-align: start;
+  justify-content: flex-start;
+  margin-left: -90px;
+ 
+}
+#products-container h1{
+  
+  background: linear-gradient(90deg, #272657 0%, #5391E4 48.1%, #272657 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 31px;
+
+}
+#products-container p{
+  color: #424246;
+  font-weight: 450;
+  padding-top: 20px;
+}
+.Askfordemo-btn{
+  background:linear-gradient(90deg, #4e3bbf, #a928d8);
+  border:none;
+  color: white;
+  padding:10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+/* Here’s what Kona’s CRM can do for you heading section */
+#crm-title{
+  padding-top: 7rem;
+  text-align: center;
+  justify-content: flex-start;
+}
+#crm-title h1{
+  color: #588ce4;
+  font-size:55px;
+  background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+-webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+#crm-title p{
+       color: #423a56;
+      font-size: 16px;
+      font-weight: 450;
+  
+}
+/* cards grid section */
+#cards{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  width: 100%;
+  gap: 1rem;
+  padding-top: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+}
+
+#cards .konacard1 img {
+  width: 30%;
+  text-align: center;
+  margin-left: 80px;
+}
+.konacard1{
+  justify-content: center;
+  
+  width: 100%;
+  padding: 10px;
+  
+  text-align: center;
+  line-height: 1.6rem;
+}
+/* Insights and Updates section */
+#updates-container{
+  display: flex;
+  padding-top: 140px;
+  padding-left: 150px;
+  padding-right: 155px;
+  padding-bottom: 100px;
+  gap: 10rem;
+  background-color: #f0f9f8;
+}
+#updates-container h1{
+  font-size: 60px;
+  background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+-webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  
+}
+#updates-container h5{
+border: none;
+
+}
+.fa-circle-check{
+  color: #8a67e9;
+}
+/* accordian */
+.QA{
+  margin-left: 36rem;
+  margin-top:45rem;
+  font-weight: 700;
+  color: #000C60;
+  margin-bottom: 20px;
+  margin-top: 19rem;
+}
+#accordionPanelsStayOpenExample{
+  display: block;
+  width: 100%;
+  padding-left: 17rem;
+  padding-right: 17rem;
+}
+#accordian-btn :hover{
+ color: #000C60;
+}
+#connect{
+  margin-top: 50px;
+}
+#lets-connect-container {
+ display: flex;
+ margin-left: 30px;
+ gap: 1rem;
+}
+.accordion-item{
+  background-color: none;
+}
+
+
+
+
+
+#lets-connect-container {
+ display: flex;
+ margin-left: 30px;
+ gap: 1rem;
+}
+.accordion-item{
+  background-color: none;
+}
+/* letsconnect content image section in flex */
+.letsconnect {
+  display: flex;
+  justify-content: center;
+  margin-left: 2px;
+  margin-top: 30px;
+  background-image: linear-gradient(239deg, #EDF3F8, #FEFEFF);
+}
+.content{
+      text-align: center;
+      margin: auto;
+}
+.image img{
+  top: 265rem;
+  left: 606px;  
+}
+.letsconnect button{
+  background:linear-gradient(90deg, #4e3bbf, #a928d8);
+  border:none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.container1{
+  margin-top: 105px;
+}
+
+.bg {
+  background-color: #FCFCFC;
+  padding: 0px;
+}
+/* footer */
+.footer{
+  display: flex;
+  top:300rem;
+  width:100%;
+  column-gap: 79px;
+  margin-left: 60px;
+  background-color: white;
+  margin-top: 10px;
+
+}
+.footer .d-flex{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+  }
+ 
+ 
