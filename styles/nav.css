@@ -433,6 +433,31 @@ body{
         flex-direction: column;
         row-gap: 10px;
     }
+    .watsapp {
+        box-shadow: 0 5px 4px 0 rgb(0 0 0 / 26%);
+        background-color: #a429d7;
+        padding: 20px;
+        border-radius: 200px 200px 200px 13px;
+        -moz-border-radius: 200px 200px 200px 13px;
+        -webkit-border-radius: 200px 200px 200px 13px;
+        border: 0px solid #000000;
+    }
+    
+    .watsapp-div {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+    .custom-popover .popover-header {
+        background: linear-gradient(-225deg, #a429d7 55%, #f58220);
+        color: white;
+    }
+    
+    .custom-popover .popover-body {
+        font-size: 24px;
+        padding: 15px;
+    }
    /* body, html {
     margin: 0;
     padding: 0;
