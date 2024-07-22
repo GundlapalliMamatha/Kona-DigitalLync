@@ -36,7 +36,7 @@ body {
     width:100%;
     font-size: 1.5em;
     color: white;
-    background: linear-gradient(45deg,  #4b0ed9, #e40bda);
+    background: linear-gradient(45deg, #F19378, #e40bda);
     padding: 10px;
     padding-top: 0px;
     border-radius: 8px 8px 0 0;
@@ -95,13 +95,14 @@ input[type="text"]#phone {
 
 button[type="submit"] {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     background: linear-gradient(45deg,  #4b0ed9, #e40bda);
     border: none;
     border-radius: 4px;
     color: white;
     font-size: 1em;
     cursor: pointer;
+    
 }
 
 button[type="submit"]:hover {

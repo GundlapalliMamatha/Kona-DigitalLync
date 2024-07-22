@@ -54,7 +54,9 @@ body{
       margin-top: 10px;
   }
   }
+ 
   
+ 
 /* navbar */
 #navbar{
     background-color: rgb(255, 255, 255);
@@ -75,6 +77,8 @@ body{
 }
 .navbar-types li{
     list-style-type: none;
+
+    border-bottom: 1px solid rgb(187, 179, 179);
 }
 .navbar-types li:hover{
     color:#6f42c1;;
@@ -87,10 +91,15 @@ body{
     background: linear-gradient(90deg, #4e3bbf, #a928d8);
     border: none;
     color: white;
-    border:2px solid skyblue;
+    /* border:2px solid skyblue; */
     padding: 10px 29px;
     border-radius: 10px;
 }
+.startnow-btn a{
+  color: white;
+  text-decoration: none;
+}
+
 /* background images for meetus section */
 .bg1{
     background-color: #FCFCFC;
@@ -124,6 +133,10 @@ body{
     border:none;
     color: white;
     padding: 10px;
+}
+.Askfordemo-btn a{
+  color: white;
+  text-decoration: none;
 }
 .meetus h1{
     font-size: 79px;
@@ -194,6 +207,9 @@ body{
     font-size: 28px;
     margin-top: 16px;
 }
+.management-system img:hover {
+    transform: scale(1.14);
+}
 /* trusted heading */
 .trusted {
     font-size: 46px;
@@ -207,13 +223,13 @@ body{
     margin-left: 176px;
 }
 .arrow-img{
-    margin-left: 263px;
-    margin-top: -25px;
+  margin-left: 240px;
+  margin-top: -59px;
 }
 
 #arrow-img{
-    margin-left: 263px;
-    margin-top: -51px;
+  margin-left: 241px;
+  margin-top: -109px;
 }
 .trusted h1{
     margin-left: 504px;
@@ -295,7 +311,10 @@ body{
 .carousel-indicators .active {
     background-image:url("https://kona-digital.com/images/mapimg.png");
 }
- 
+.carousalbackground {
+  background-color: #ffffffb0;
+  box-shadow:0 0 0 10px white;
+}
   .trusted{
     top:165rem;
   }
@@ -328,29 +347,21 @@ body{
     margin-bottom: 20px;
     margin-top: 19rem;
 }
-#accordionPanelsStayOpenExample{
-  display: block;
-  width: 94rem;
-  padding-left: 17rem;
-  padding-right: 17rem;
-  margin-left: -93px;
-  
-  border:11px solid white;
+.accordion-header button {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 0px;
 }
-#accordian-btn :hover{
- color: #c9cbdd;
+
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+  color: rgb(118, 51, 202);
+  background-color: transparent !important;
+  box-shadow: none;
 }
-#connect{
-  margin-top: 50px;
-}
-#lets-connect-container {
- display: flex;
- margin-left: 30px;
- gap: 1rem;
-}
-.accordion-item{
-  background-color: none;
-  border:1px solid rgb(105, 96, 96);
+
+.accordion {
+  padding: 70px 220px;
 }
 
 #connect{
@@ -374,9 +385,7 @@ body{
    margin-left: 30px;
    gap: 1rem;
 }
-.accordion-item{
-    background-color: none;
-}
+
   /* letsconnect content image section in flex */
   .letsconnect {
     display: flex;
@@ -423,6 +432,31 @@ body{
         display: flex;
         flex-direction: column;
         row-gap: 10px;
+    }
+    .watsapp {
+        box-shadow: 0 5px 4px 0 rgb(0 0 0 / 26%);
+        background-color: #a429d7;
+        padding: 20px;
+        border-radius: 200px 200px 200px 13px;
+        -moz-border-radius: 200px 200px 200px 13px;
+        -webkit-border-radius: 200px 200px 200px 13px;
+        border: 0px solid #000000;
+    }
+    
+    .watsapp-div {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+    .custom-popover .popover-header {
+        background: linear-gradient(-225deg, #a429d7 55%, #f58220);
+        color: white;
+    }
+    
+    .custom-popover .popover-body {
+        font-size: 24px;
+        padding: 15px;
     }
    /* body, html {
     margin: 0;
